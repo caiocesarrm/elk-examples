@@ -1,0 +1,31 @@
+argon2-cffi==19.2.0  # https://github.com/hynek/argon2_cffi
+
+# Django
+# ------------------------------------------------------------------------------
+django==3.0.5  # pyup: < 3.0  # https://www.djangoproject.com/
+django-environ==0.4.5  # https://github.com/joke2k/django-environ
+django-allauth==0.41.0  # https://github.com/pennersr/django-allauth
+
+# Django REST Framework
+djangorestframework==3.11.0  # https://github.com/encode/django-rest-framework
+coreapi==2.3.3  # https://github.com/core-api/python-client
+
+django-cors-headers==3.2.1
+djangorestframework-simplejwt==4.4.0
+
+# REST server
+gunicorn==20.0.4
+regex==2020.4.4
+
+celery==4.4.7
+django-celery-results==1.2.1
+
+psycopg2-binary==2.8.5
+
+requests
+numpy
+pandas
+
+django-elasticsearch-dsl
+elasticsearch-dsl>=5.0
+python-logstash
